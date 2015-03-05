@@ -27,7 +27,7 @@ variable	nzhalf equal ${nz}*0.5
 variable	a equal 2.87
 variable	length equal ${nz}*${a}
 
-lattice		bcc ${a}
+lattice		fcc ${a}
 
 region         box block 0 ${nx} 0 ${ny} 0 ${nz}
 create_box     1 box
