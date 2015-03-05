@@ -59,7 +59,7 @@ var/
 *.egg
 
 #ASE data #
-
+*.pckl
 *.traj
 *.gpw
 sub.*
