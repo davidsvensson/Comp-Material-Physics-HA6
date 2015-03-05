@@ -13,7 +13,7 @@ variable        eqsteps equal 50000
 variable        simsteps equal 200000
 
 # Our trial melting temperature
-variable	T equal 1100.0
+variable	T equal 850.0
 variable	T2 equal 2*${T}
 
 # Some high temperature to melt the crystal
@@ -24,7 +24,7 @@ variable	nx equal 4
 variable	ny equal 4
 variable	nz equal 20
 variable	nzhalf equal ${nz}*0.5
-variable	a equal 2.87
+variable	a equal 4.050
 variable	length equal ${nz}*${a}
 
 lattice		fcc ${a}
