@@ -24,7 +24,7 @@ variable	nx equal 4
 variable	ny equal 4
 variable	nz equal 20
 variable	nzhalf equal ${nz}*0.5
-variable	a equal 2.87
+variable	a equal 4.050
 variable	length equal ${nz}*${a}
 
 lattice		fcc ${a}
