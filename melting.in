@@ -36,7 +36,7 @@ create_atoms   1 box
 mass		1 26.9815
 
 pair_style	eam/alloy
-pair_coeff	* * Fe_potential.alloy Fe
+pair_coeff	* * Al_potential.alloy Al
 
 velocity	all create ${T2} 1337
 

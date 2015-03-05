@@ -7,6 +7,7 @@ from ase.phonons import Phonons
 # Setup crystal and EMT calculator
 atoms = bulk('Al', 'fcc', a=4.05)
 calc = EAM(potential='Al_potential.alloy')
+
 # Phonon calculator
 N = 7
 ph = Phonons(atoms, calc, supercell=(N, N, N), delta=0.05)
