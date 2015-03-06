@@ -4,7 +4,7 @@ import numpy as np
 
 # Loops though the folders T_XXXX and save the temp + std 
 # and potE + std
-for runTemp in range(750, 1201, 25):
+for runTemp in range(750, 1401, 25):
 
 
 	logfile = './T_'+str(runTemp)+'/log.lammps'
