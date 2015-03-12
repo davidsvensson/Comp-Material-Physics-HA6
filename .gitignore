@@ -64,6 +64,8 @@ var/
 *.gpw
 sub.*
 
+atomsdump
+
 *.bak
 # OS generated files #
 .DS_Store

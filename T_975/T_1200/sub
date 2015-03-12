@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -q beda
+#PBS -A C3SE2015-1-28
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=01:00:00
+cd $PBS_O_WORKDIR
+module purge
+##module load COURSES/TIF035-2014
+module load intel-compilers/14.0/080 intel-mpi/4.1.1.036 mkl/11.1/100 lammps/13jan14
+export GPAW_SETUP_PATH=$PBS_O_WORKDIR:$GPAW_SETUP_PATH
+lmp_beda < melting.in
+##mpirun gpaw-python ./main.py 

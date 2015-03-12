@@ -20,8 +20,8 @@ variable	T2 equal 2*${T}
 variable	Tmelt equal 2000.0
 
 #System size
-variable	nx equal 4
-variable	ny equal 4
+variable	nx equal 10
+variable	ny equal 10
 variable	nz equal 20
 variable	nzhalf equal ${nz}*0.5
 variable	a equal 4.050
